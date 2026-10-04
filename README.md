@@ -2,6 +2,8 @@
 
 Wonsik Choi (sole author), ORCID 0009-0001-4263-9772. 2026-10-04.
 
+**Reviewed collection DOI:** [10.5281/zenodo.23134716](https://doi.org/10.5281/zenodo.23134716) · [Zenodo record](https://zenodo.org/records/23134716).
+
 This repository is devoted to the prime-parts followup. It does not combine this series with WRRA_M upstream/downstream synthesis. The antecedent exploratory synthesis is [DOI 10.5281/zenodo.23128482](https://doi.org/10.5281/zenodo.23128482).
 
 ## Review result
