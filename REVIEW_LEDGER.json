@@ -1,0 +1,19 @@
+{
+  "series": "WRRA Prime Parts Rendering Followup 0.1-0.12",
+  "author": "Wonsik Choi",
+  "orcid": "0009-0001-4263-9772",
+  "antecedent_doi": "10.5281/zenodo.23128482",
+  "independence": "Separate from WRRA_M upstream/downstream synthesis",
+  "historical_replay": {
+    "0.1-0.10": "10 numerical result matches in isolated stage runs",
+    "0.1-0.2": "Numerically equal JSON; serialization differs",
+    "0.3-0.10": "Result JSON byte-identical",
+    "claim": "Implementation reproducibility; not independent experimental validation"
+  },
+  "cross_stage_0_11": {"passed": 47, "independent_audit": 26},
+  "finite_pool_0_12": {"internal_passed": 44, "independent_audit": 12, "fresh_byte_replay": true},
+  "correction": "Initial beta budget is already represented by electron plus antineutrino outputs in 0.6 pool; 0.12 absolute source energy check avoids double counting.",
+  "closed_scope": "First-generation fusion-photon transport and target response across declared K15 finite-pool spatial ensemble after source t=180 s",
+  "uncomputed": ["correlated site microstates", "simultaneous source and transport evolution", "secondary capture-photon routing", "microscopic cross sections"],
+  "version_policy": "0.12 is final for this scoped collection; uncomputed interfaces are disclosed and do not imply an automatic next stage"
+}
