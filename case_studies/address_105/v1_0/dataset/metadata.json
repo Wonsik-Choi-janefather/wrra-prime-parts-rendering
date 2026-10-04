@@ -1,0 +1,19 @@
+{
+  "title": "WRRA Address 105 Prime Parts Case Study Dataset",
+  "resource_type": "dataset",
+  "version": "1.0.0",
+  "publication_date": "2026-10-04",
+  "creator": {"name": "Wonsik Choi", "family_name": "Choi", "given_name": "Wonsik", "orcid": "0009-0001-4263-9772", "affiliation": "Independent Researcher, Seoul", "email": "janefather@gmail.com", "sole_author": true},
+  "doi": "10.5281/zenodo.23137540",
+  "associated_paper_doi": "10.5281/zenodo.23137504",
+  "prior_collection_doi": "10.5281/zenodo.23134716",
+  "repository": "https://github.com/Wonsik-Choi-janefather/wrra-prime-parts-rendering/tree/main/case_studies/address_105/v1_0",
+  "upstream_git_commit": "bc299f2a9919da3ca2e59b88ff39173ac2c222e7",
+  "license": "CC-BY-4.0",
+  "data_generation": "Deterministic finite model calculation using fixed choices and inherited rest-energy inputs",
+  "executed_scope": ["address 105", "K15 small-first and large-first assembly", "declared prime-label nucleon readout", "shared Q/B/L and MeV source ledgers"],
+  "not_executed": ["autonomous microscopic preparation", "individual lepton spectra", "time-dependent nuclear reactions", "photon transport", "cosmic abundance inference"],
+  "encoding": "UTF-8",
+  "csv_line_ending": "LF",
+  "energy_arithmetic": "Python Decimal with precision 40 and decimal strings for inherited inputs"
+}

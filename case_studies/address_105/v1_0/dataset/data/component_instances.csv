@@ -1,0 +1,16 @@
+case,selection_index,prime_label,occurrence_index,instance_id,readout
+small_first,1,2,1,p2_occurrence1,daughter_bundle
+small_first,2,3,1,p3_occurrence1,daughter_bundle
+small_first,3,5,1,p5_occurrence1,neutron
+small_first,4,7,1,p7_occurrence1,daughter_bundle
+small_first,5,11,1,p11_occurrence1,daughter_bundle
+small_first,6,13,1,p13_occurrence1,daughter_bundle
+small_first,7,17,1,p17_occurrence1,daughter_bundle
+small_first,8,19,1,p19_occurrence1,daughter_bundle
+small_first,9,23,1,p23_occurrence1,daughter_bundle
+small_first,10,2,2,p2_occurrence2,daughter_bundle
+small_first,11,3,2,p3_occurrence2,daughter_bundle
+large_first,1,47,1,p47_occurrence1,neutron
+large_first,2,43,1,p43_occurrence1,daughter_bundle
+large_first,3,13,1,p13_occurrence1,daughter_bundle
+large_first,4,2,1,p2_occurrence1,daughter_bundle

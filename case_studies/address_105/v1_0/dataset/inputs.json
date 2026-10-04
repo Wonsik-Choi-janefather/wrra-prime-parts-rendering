@@ -1,0 +1,18 @@
+{
+  "version": "1.0.0",
+  "address": 105,
+  "prime_pool": [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47],
+  "neutron_component_labels": [5, 47],
+  "rest_energies_MeV": {
+    "proton": "938.27208943",
+    "neutron": "939.56542194",
+    "electron": "0.51099895069"
+  },
+  "algorithm": "Visit each prime once in the selected order; accept it when prime <= remaining address; repeat whole cycles while remaining address >= 2.",
+  "readout_rule": "Labels 5 and 47 read as n; every other selected label reads as p + e + electron antineutrino, retaining the prime and occurrence identities.",
+  "source_budget_rule": "Use the maximum active component count across the two compared assemblies as the neutral B=1 source count; retain unused source components as an inactive reserve with neutron-like energy shells.",
+  "source_quantum_numbers_per_component": {"electric_charge_e": 0, "baryon_number": 1, "lepton_number": 0},
+  "daughter_nonrest_budget_rule": "Each daughter receives neutron - proton - electron rest energy as an unresolved total antineutrino/kinetic/recoil budget; no individual spectrum or photon is assigned.",
+  "address_semantics": "The integer address is an additive label and is not a baryon count, mass, physical energy or spatial coordinate. The MeV source budget is separately declared from source component count.",
+  "reserve_semantics": "An inactive source component chosen in this model; not an observed free neutron made artificially stable. Its autonomous preparation mechanism is not computed in this case."
+}

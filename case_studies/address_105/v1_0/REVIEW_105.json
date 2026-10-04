@@ -1,0 +1,50 @@
+{
+  "version": "1.0.0",
+  "paper_doi": "10.5281/zenodo.23137504",
+  "dataset_doi": "10.5281/zenodo.23137540",
+  "author": "Wonsik Choi",
+  "assessment_path": {
+    "verified_inputs": "Published finite assembler and recorded particle rest energies; case-specific rules documented as choices",
+    "WRRA_transformation": "Prime-labelled assembly, retained origins, complete nucleon readout and common Q/B/L/energy source ledger",
+    "outputs": "11 versus 4 active components; 1 n+10 D versus 1 n+3 D; total B=11 and energy 10335.21964134 MeV in both",
+    "falsifiers": "Fixed-rule result mismatch or failed address/Q/B/L/energy balance"
+  },
+  "checks": {
+    "scalar_reproducer": 28,
+    "upstream_comparison": 13,
+    "reference_result_files_byte_equal": 5,
+    "zip_crc_passed": true,
+    "dataset_sha256_files_verified": 13,
+    "KO_pdf_pages": 2,
+    "EN_pdf_pages": 2,
+    "all_four_paper_pages_visually_reviewed": true
+  },
+  "csv_rows": {
+    "assembly_trace.csv": 45,
+    "component_instances.csv": 15,
+    "case_ledger.csv": 2,
+    "component_counts.csv": 30
+  },
+  "files": {
+    "WRRA_Prime_Parts_105_Case_Study_v1_0_EN_2026_10_04.docx": {
+      "bytes": 40562,
+      "sha256": "5e50d6aab10cb8405296ce096a1f0e8509ebaa1c1c43035e77232950de1a6cf5"
+    },
+    "WRRA_Prime_Parts_105_Case_Study_v1_0_EN_2026_10_04.pdf": {
+      "bytes": 118888,
+      "sha256": "edc4cb3ddd8b67ad09b4612e81b81bb023b111e271f3f7770381b6af8e3406dd"
+    },
+    "WRRA_Prime_Parts_105_Case_Study_v1_0_KO_2026_10_04.docx": {
+      "bytes": 40990,
+      "sha256": "68d3f5fc574c4c0f20aaee9404fcb1e8914dfbff7005c2b925ea5afe3ddd9ef5"
+    },
+    "WRRA_Prime_Parts_105_Case_Study_v1_0_KO_2026_10_04.pdf": {
+      "bytes": 199353,
+      "sha256": "dfbf6fa808edbc91d1ce2433061a766f264b919739d13555057a9c87afba890a"
+    },
+    "WRRA_Prime_Parts_105_Dataset_v1_0_2026_10_04.zip": {
+      "bytes": 17082,
+      "sha256": "43a9d666ce9532830b24191e5b0e5a53039b889678962694b4b4f2e177c1050c"
+    }
+  }
+}

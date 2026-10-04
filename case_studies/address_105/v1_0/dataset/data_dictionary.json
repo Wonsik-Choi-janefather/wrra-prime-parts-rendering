@@ -1,0 +1,215 @@
+{
+  "data/assembly_trace.csv": {
+    "case": {
+      "description": "Fixed assembly configuration; small_first or large_first",
+      "unit": "dimensionless",
+      "denominator": "per case and recorded visit/component/prime"
+    },
+    "cycle": {
+      "description": "One-based whole-pool traversal index",
+      "unit": "dimensionless",
+      "denominator": "per case and recorded visit/component/prime"
+    },
+    "visit_rank": {
+      "description": "One-based position within the selected traversal order",
+      "unit": "dimensionless",
+      "denominator": "per case and recorded visit/component/prime"
+    },
+    "prime_label": {
+      "description": "Dimensionless additive component identity, not physical energy or position",
+      "unit": "dimensionless",
+      "denominator": "per case and recorded visit/component/prime"
+    },
+    "accepted": {
+      "description": "1 if this visit selected one component, otherwise 0",
+      "unit": "dimensionless",
+      "denominator": "per case and recorded visit/component/prime"
+    },
+    "remaining_before": {
+      "description": "Dimensionless address remainder before this visit",
+      "unit": "dimensionless",
+      "denominator": "per case and recorded visit/component/prime"
+    },
+    "remaining_after": {
+      "description": "Dimensionless address remainder after this visit",
+      "unit": "dimensionless",
+      "denominator": "per case and recorded visit/component/prime"
+    },
+    "consumed_address_after": {
+      "description": "Sum of selected prime labels after this visit",
+      "unit": "dimensionless",
+      "denominator": "per case and recorded visit/component/prime"
+    },
+    "instance_id": {
+      "description": "Prime label and occurrence index; unique within a case; empty for an unselected visit",
+      "unit": "dimensionless",
+      "denominator": "per case and recorded visit/component/prime"
+    }
+  },
+  "data/case_ledger.csv": {
+    "case": {
+      "description": "Fixed assembly configuration; small_first or large_first",
+      "unit": "dimensionless",
+      "denominator": "per prepared address-105 case"
+    },
+    "address_integer": {
+      "description": "Dimensionless input address",
+      "unit": "dimensionless",
+      "denominator": "per prepared address-105 case"
+    },
+    "summed_prime_labels": {
+      "description": "Sum of labels of all selected components",
+      "unit": "dimensionless",
+      "denominator": "per prepared address-105 case"
+    },
+    "residual_address_integer": {
+      "description": "Final additive address residue; distinct from reserve baryons",
+      "unit": "dimensionless",
+      "denominator": "per prepared address-105 case"
+    },
+    "active_components": {
+      "description": "Number of selected B=1 source components",
+      "unit": "dimensionless",
+      "denominator": "per prepared address-105 case"
+    },
+    "active_neutrons": {
+      "description": "Number of selected neutron readouts",
+      "unit": "dimensionless",
+      "denominator": "per prepared address-105 case"
+    },
+    "active_protons": {
+      "description": "Number of protons in complete D readouts",
+      "unit": "dimensionless",
+      "denominator": "per prepared address-105 case"
+    },
+    "active_electrons": {
+      "description": "Number of electrons in complete D readouts",
+      "unit": "dimensionless",
+      "denominator": "per prepared address-105 case"
+    },
+    "active_electron_antineutrinos": {
+      "description": "Number of electron antineutrinos in complete D readouts",
+      "unit": "dimensionless",
+      "denominator": "per prepared address-105 case"
+    },
+    "reserve_baryons": {
+      "description": "Inactive B=1 source components retained under the common envelope",
+      "unit": "dimensionless",
+      "denominator": "per prepared address-105 case"
+    },
+    "total_baryons": {
+      "description": "Active plus reserve baryon number",
+      "unit": "dimensionless",
+      "denominator": "per prepared address-105 case"
+    },
+    "total_charge_e": {
+      "description": "Net charge of active plus reserve configuration in elementary-charge units",
+      "unit": "elementary_charge",
+      "denominator": "per prepared address-105 case"
+    },
+    "total_lepton_number": {
+      "description": "Net lepton number including antineutrinos",
+      "unit": "dimensionless",
+      "denominator": "per prepared address-105 case"
+    },
+    "source_energy_MeV": {
+      "description": "Declared common source energy",
+      "unit": "MeV",
+      "denominator": "per prepared address-105 case"
+    },
+    "active_rest_energy_MeV": {
+      "description": "Neutron plus proton and electron rest-energy sum; antineutrino/kinetic/recoil budget recorded separately",
+      "unit": "MeV",
+      "denominator": "per prepared address-105 case"
+    },
+    "daughter_nonrest_budget_MeV": {
+      "description": "Unresolved total antineutrino/kinetic/recoil budget from complete daughter readouts; not photon energy",
+      "unit": "MeV",
+      "denominator": "per prepared address-105 case"
+    },
+    "reserve_energy_MeV": {
+      "description": "Energy retained in inactive source components",
+      "unit": "MeV",
+      "denominator": "per prepared address-105 case"
+    },
+    "address_residue_energy_MeV": {
+      "description": "Declared energy budget for unassembled additive residue; zero in both cases",
+      "unit": "MeV",
+      "denominator": "per prepared address-105 case"
+    },
+    "neutral_buffer_energy_MeV": {
+      "description": "Common residual envelope minus the selected residual energy; zero here",
+      "unit": "MeV",
+      "denominator": "per prepared address-105 case"
+    },
+    "accounted_energy_MeV": {
+      "description": "Sum of active rest, daughter nonrest, reserve, address residue and neutral buffer energies",
+      "unit": "MeV",
+      "denominator": "per prepared address-105 case"
+    },
+    "energy_closure_residual_MeV": {
+      "description": "Accounted minus source energy; exact Decimal zero here",
+      "unit": "MeV",
+      "denominator": "per prepared address-105 case"
+    }
+  },
+  "data/component_counts.csv": {
+    "case": {
+      "description": "Fixed assembly configuration; small_first or large_first",
+      "unit": "dimensionless",
+      "denominator": "per case and recorded visit/component/prime"
+    },
+    "prime_label": {
+      "description": "Dimensionless additive component identity, not physical energy or position",
+      "unit": "dimensionless",
+      "denominator": "per case and recorded visit/component/prime"
+    },
+    "multiplicity": {
+      "description": "Number of selected occurrences of this prime in this case",
+      "unit": "dimensionless",
+      "denominator": "per case and recorded visit/component/prime"
+    },
+    "address_contribution": {
+      "description": "Prime label times multiplicity",
+      "unit": "dimensionless",
+      "denominator": "per case and recorded visit/component/prime"
+    },
+    "readout": {
+      "description": "Declared neutron or complete daughter_bundle readout",
+      "unit": "dimensionless",
+      "denominator": "per case and recorded visit/component/prime"
+    }
+  },
+  "data/component_instances.csv": {
+    "case": {
+      "description": "Fixed assembly configuration; small_first or large_first",
+      "unit": "dimensionless",
+      "denominator": "per case and recorded visit/component/prime"
+    },
+    "selection_index": {
+      "description": "One-based order of selected components",
+      "unit": "dimensionless",
+      "denominator": "per case and recorded visit/component/prime"
+    },
+    "prime_label": {
+      "description": "Dimensionless additive component identity, not physical energy or position",
+      "unit": "dimensionless",
+      "denominator": "per case and recorded visit/component/prime"
+    },
+    "occurrence_index": {
+      "description": "One-based occurrence of this prime in this case",
+      "unit": "dimensionless",
+      "denominator": "per case and recorded visit/component/prime"
+    },
+    "instance_id": {
+      "description": "Prime label and occurrence index; unique within a case; empty for an unselected visit",
+      "unit": "dimensionless",
+      "denominator": "per case and recorded visit/component/prime"
+    },
+    "readout": {
+      "description": "Declared neutron or complete daughter_bundle readout",
+      "unit": "dimensionless",
+      "denominator": "per case and recorded visit/component/prime"
+    }
+  }
+}

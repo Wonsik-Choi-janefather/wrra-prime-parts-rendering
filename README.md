@@ -24,3 +24,11 @@ Unpack each ZIP into its own directory. In the 0.11 directory run `OPENBLAS_NUM_
 The historical stage results are snapshots and are not silently rewritten. This collection makes the correction to the 0.12 pool energy ledger explicit: the `initial_beta_budget_MeV` is already included in the electron and antineutrino records and must not be added a second time. The final `compute.py` checks absolute closure against the original common-source energy.
 
 Model/empirical distinction: rest masses and neutron lifetime are inherited measured inputs; alpha/beta weights and spatial/coupling choices are calibrated/declared. WRRA originality lies in the executed structural ledger. Fixed-input outputs are conditional WRRA predictions, not independent measurements or a derivation of all microscopic forces.
+
+## Focused case study of address 105
+
+The separate two-page case paper and dataset explain finite assembly order, nucleon readouts and common source accounting with one worked example.
+
+- [Case paper and reproducible dataset](case_studies/address_105/v1_0/README.md)
+- Paper DOI: https://doi.org/10.5281/zenodo.23137504
+- Dataset DOI: https://doi.org/10.5281/zenodo.23137540

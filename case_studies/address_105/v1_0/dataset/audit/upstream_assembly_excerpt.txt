@@ -1,0 +1,11 @@
+for K in [15,16]:
+    pool=np.flatnonzero(sieve)[:K]
+    for order,parts in [('small',pool),('large',pool[::-1])]:
+        cyc=addresses//parts.sum();c=np.repeat(cyc[:,None],K,axis=1);r=addresses-cyc*parts.sum()
+        while np.any(r>=2):
+            for j,prime in enumerate(parts):
+                fits=r>=prime;c[:,j]+=fits;r-=prime*fits
+        is_n=np.isin(parts,cfg['neutron_component_labels'])
+        cn=c[:,is_n].sum(axis=1);cp=c[:,~is_n].sum(axis=1);ct=cn+cp
+        check(f'address_identity_{K}_{order}',np.all(c@parts+r==addresses))
+        cache.append({'K':K,'order':order,'parts':parts,'mean_c':w@c,'n':cn,'D':cp,'ct':ct,'r':r})
